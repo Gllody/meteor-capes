@@ -1,85 +1,20 @@
-# Meteor Addon Template
+<div align="center">
+  <!-- Logo and Title -->
+  <img src="https://github.com/Gllody/meteor-capes/blob/master/meteorcapes.png?raw=true" alt="logo" width="50%"/>
+  <h1>Meteor Capes</h1>
+  <p>An addon to Meteor Client adding capes!</p>
 
-A template to allow easy usage of the Meteor Addon API.
+  <!-- Fancy badges -->
+  <img src="https://img.shields.io/badge/Minecraft%20Version-1.21.4-blue" alt="Minecraft Version">
+  <a href="https://github.com/Gllody/meteor-capes/commits/master"><img src="https://img.shields.io/github/last-commit/Gllody/meteor-capes?logo=git" alt="Last commit"></a>
+  <img src="https://img.shields.io/github/languages/code-size/Gllody/meteor-capes" alt="Code Size">
+  <img src="https://img.shields.io/github/repo-size/Gllody/meteor-capes" alt="Repo Size">
+  <img src="https://img.shields.io/github/stars/Gllody/meteor-capes" alt="Stars">
+</div>
+<div align="center">
+  <a href="https://discord.gg/XFaXTqfag5"><img src="https://github.com/Gllody/meteor-capes/blob/master/discord.png?raw=true"></a>
+</div>
 
-### How to use
-
-- Clone this project
-- Use this template to create new modules/commands
-- Build the executable using the gradle `build` task.
-- Run the mod with Meteor.
-
-### Project structure
-
-```text
-.
-│── .github
-│   ╰── workflows
-│       │── dev_build.yml
-│       ╰── pull_request.yml
-│── gradle
-│   ╰── wrapper
-│       │── gradle-wrapper.jar
-│       ╰── gradle-wrapper.properties
-│── src
-│   ╰── main
-│       │── java
-│       │   ╰── com
-│       │       ╰── example
-│       │           ╰── addon
-│       │               │── commands
-│       │               │   ╰── CommandExample
-│       │               │── hud
-│       │               │   ╰── HudExample
-│       │               │── modules
-│       │               │   ╰── ModuleExample
-│       │               ╰── AddonTemplate
-│       ╰── resources
-│           │── assets
-│           │   ╰── template
-│           │       ╰── icon.png
-│           │── addon-template.mixins.json
-│           ╰── fabric.mod.json
-│── .editorconfig
-│── .gitignore
-│── build.gradle
-│── gradle.properties
-│── gradlew
-│── gradlew.bat
-│── LICENSE
-│── README.md
-╰── settings.gradle
-```
-
-This is the default project structure. Each folder/file has a specific purpose.  
-Here is a brief explanation of the ones you might need to modify:
-
-- `.github/workflows`: Contains the GitHub Actions configuration files.
-- `gradle`: Contains the Gradle wrapper files.  
-  Edit the `gradle.properties` file to change the version of the Gradle wrapper.
-- `src/main/java/com/example/addon`: Contains the main class of the addon.  
-  Here you can register your custom commands, modules, and HUDs.  
-  Edit the `getPackage` method to reflect the package of your addon.
-- `src/main/resources`: Contains the resources of the addon.
-    - `assets`: Contains the assets of the addon.  
-      You can add your own assets here, separated in subfolders.
-        - `template`: Contains the assets of the template.  
-          You can replace the `icon.png` file with your own addon icon.  
-          Also, rename this folder to reflect the name of your addon.
-    - `addon-template.mixins.json`: Contains the Mixin configuration for the addon.  
-      You can add your own mixins in the `client` array.
-    - `fabric.mod.json`: Contains the metadata of the addon.  
-      Edit the various fields to reflect the metadata of your addon.
-- `build.gradle.kts`: Contains the Gradle build script.  
-  You can manage the dependencies of the addon here.  
-  Remember to keep the `fabric-loom` version up-to-date.
-- `gradle.properties.kts`: Contains the properties of the Gradle build.  
-  These will be used by the build script.
-- `LICENSE`: Contains the license of the addon.  
-  You can edit this file to change the license of your addon.
-- `README.md`: Contains the documentation of the addon.  
-  You can edit this file to reflect the documentation of your addon, and showcase its features.
-
-## License
-
-This template is available under the CC0 license. Feel free to use it for your own projects.
+# How to use
+- Download the latest [release](/../../releases) of the mod from the releases tab.
+- Put it in your `.minecraft/mods` folder where you have installed Meteor.
