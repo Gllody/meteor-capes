@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Logo and Title -->
-  <img src="https://github.com/Gllody/meteor-capes/blob/master/meteorcapes.png?raw=true" alt="logo" width="20%"/>
+  <img src="https://github.com/Gllody/meteor-capes/blob/master/meteorcapes.png?raw=true" alt="logo" width="50%"/>
   <h1>Meteor Capes</h1>
   <p>An addon to Meteor Client adding capes!</p>
 
@@ -9,7 +9,6 @@
   <a href="https://github.com/Gllody/meteor-capes/commits/master"><img src="https://img.shields.io/github/last-commit/Gllody/meteor-capes?logo=git" alt="Last commit"></a>
   <img src="https://img.shields.io/github/languages/code-size/Gllody/meteor-capes" alt="Code Size">
   <img src="https://img.shields.io/github/repo-size/Gllody/meteor-capes" alt="Repo Size">
-  <img src="https://img.shields.io/github/issues/Gllody/meteor-capes" alt="Issues">
   <img src="https://img.shields.io/github/stars/Gllody/meteor-capes" alt="Stars">
 </div>
 <div align="center">
