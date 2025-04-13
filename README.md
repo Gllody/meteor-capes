@@ -6,10 +6,9 @@
 
   <!-- Fancy badges -->
   <img src="https://img.shields.io/badge/Minecraft%20Version-1.21.4-blue" alt="Minecraft Version">
-  <a href="https://github.com/Gllody/meteor-capes/commits/master"><img src="https://img.shields.io/github/last-commit/Gllody/meteor-capes?logo=git" alt="Last commit"></a>
-  <img src="https://img.shields.io/github/languages/code-size/Gllody/meteor-capes" alt="Code Size">
-  <img src="https://img.shields.io/github/repo-size/Gllody/meteor-capes" alt="Repo Size">
-  <img src="https://img.shields.io/github/stars/Gllody/meteor-capes" alt="Stars">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gllody/meteor-capes">
+  <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/gllody/meteor-capes/total">
+
 </div>
 <div align="center">
   <a href="https://discord.gg/XFaXTqfag5"><img src="https://github.com/Gllody/meteor-capes/blob/master/discord.png?raw=true"></a>
