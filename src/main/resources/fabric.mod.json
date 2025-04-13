@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "meteor-capes",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Meteor Capes",
+  "description": "Meteor Capes addon.",
   "authors": [
-    "seasnail"
+    "Gllody"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/Gllody/meteor-capes"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/meteorcapes/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "dev.gllody.meteorcapes.MeteorCapes"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "meteor-capes.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"

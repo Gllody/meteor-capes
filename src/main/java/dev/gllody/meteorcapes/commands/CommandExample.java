@@ -1,4 +1,4 @@
-package com.example.addon.commands;
+package dev.gllody.meteorcapes.commands;
 
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;

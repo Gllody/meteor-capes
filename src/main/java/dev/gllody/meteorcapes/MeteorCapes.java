@@ -1,8 +1,8 @@
-package com.example.addon;
+package dev.gllody.meteorcapes;
 
-import com.example.addon.commands.CommandExample;
-import com.example.addon.hud.HudExample;
-import com.example.addon.modules.ModuleExample;
+import dev.gllody.meteorcapes.commands.CommandExample;
+import dev.gllody.meteorcapes.hud.HudExample;
+import dev.gllody.meteorcapes.modules.CapesModule;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -13,9 +13,9 @@ import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
-public class AddonTemplate extends MeteorAddon {
+public class MeteorCapes extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
+    public static final Category CATEGORY = new Category("GllodyCapes");
     public static final HudGroup HUD_GROUP = new HudGroup("Example");
 
     @Override
@@ -23,7 +23,7 @@ public class AddonTemplate extends MeteorAddon {
         LOG.info("Initializing Meteor Addon Template");
 
         // Modules
-        Modules.get().add(new ModuleExample());
+        Modules.get().add(new CapesModule());
 
         // Commands
         Commands.add(new CommandExample());

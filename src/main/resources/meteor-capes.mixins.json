@@ -1,9 +1,9 @@
 {
   "required": true,
-  "package": "com.example.addon.mixin",
+  "package": "dev.gllody.meteorcapes.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "ExampleMixin"
+    "PlayerListEntryMixin"
   ],
   "injectors": {
     "defaultRequire": 1
