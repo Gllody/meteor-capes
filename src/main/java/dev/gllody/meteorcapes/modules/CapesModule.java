@@ -5,22 +5,17 @@ import meteordevelopment.meteorclient.settings.Setting;
 import meteordevelopment.meteorclient.settings.SettingGroup;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
-
 import meteordevelopment.meteorclient.settings.EnumSetting;
 
 public class CapesModule extends Module {
-
     public CapesModule() {super(MeteorCapes.CATEGORY, "capes", "Just pick any cape (you need to rejoin)");}
-
     public static String capeed;
-
     private final SettingGroup sgGeneral1 = settings.getDefaultGroup();
     public final Setting<Mode> modee = sgGeneral1.add(new EnumSetting.Builder<Mode>()
         .name("mode")
         .description("Decide from packet or client sided rotation.")
         .defaultValue(Mode.Aetheric)
         .build()
-
     );
     public enum Mode {
         Aetheric("Aetheric"),
@@ -45,12 +40,10 @@ public class CapesModule extends Module {
         Mode(String title) {
             this.title = title;
         }
-
         @Override
         public String toString() {
             return title;
         }
-
     }
     @EventHandler
     public void onActivate() {
