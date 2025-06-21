@@ -33,11 +33,11 @@ public class MeteorCapes extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "com.gllody.meteorcapes";
     }
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("MeteorDevelopment", "meteor-addon-template");
+        return new GithubRepo("gllody", "meteor-capes");
     }
 }
