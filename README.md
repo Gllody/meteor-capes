@@ -5,7 +5,7 @@
   <p>An addon to Meteor Client adding capes!</p>
 
   <!-- Fancy badges -->
-  <img src="https://img.shields.io/badge/Minecraft%20Version-1.21.4-blue" alt="Minecraft Version">
+  <img src="https://img.shields.io/badge/Minecraft%20Version-1.21.5-blue" alt="Minecraft Version">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gllody/meteor-capes">
   <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/gllody/meteor-capes/total">
 
